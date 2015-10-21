@@ -1,43 +1,47 @@
 {
-  "name": "o2system/o2codeigniter",
-  "description": "CodeIgniter Libraries and Helpers for O2System PHP Framework",
-  "license": "MIT",
-  "minimum-stability": "dev",
-  "version": "3.0.0",
-  "type": "php-libraries",
-  "keywords": ["utilities","php","framework","driver","libraries"],
-  "authors": [
-    "authors": [
+  "name"              : "o2system/codeigniter",
+  "description"       : "CodeIgniter Libraries and Helpers",
+  "license"           : "MIT",
+  "version"           : "3.0.0",
+  "type"              : "php-libraries",
+  "keywords"          : [ "utilities", "php", "framework", "driver", "libraries", "database" ],
+  "authors"           : [
     {
-      "name": "British Columbia Institute of Technology",
-      "email": "jim_parry@bcit.ca",
-      "homepage": "http://codeigniter.com"
+      "name"     : "PT. Lingkar Kreasi (Circle Creative)",
+      "email"    : "developer@circle-creative.com",
+      "homepage" : "http://www.circle-creative.com",
+      "role"     : "Founder"
     },
     {
-      "name": "PT. Lingkar Kreasi (Circle Creative)",
-      "email": "developer@cirlce-creative.com",
-      "homepage": "http://circle-creative.com"
+      "name"     : "Steeven Andrian Salim",
+      "email"    : "steevenz@steevenz.com",
+      "homepage" : "http://www.steevenz.com",
+      "role"     : "Founder and Lead Project"
+    },
+    {
+      "name"  : "Aradea",
+      "email" : "aradea.hind@gmail.com",
+      "role"  : "Wiki Writer"
     }
   ],
-  "support": {
-    "email": "developer@circle-creative.com",
-    "issues": "https://github.com/circlecreative/o2system/issues",
-    "forum": "https://www.facebook.com/groups/498147006994512"
+  "support"           : {
+    "email"  : "developer@circle-creative.com",
+    "issues" : "https://github.com/circlecreative/o2system/issues",
+    "forum"  : "https://www.facebook.com/groups/498147006994512"
   },
-  "links": {
-    "info": "http://www.circle-creative.com/products/o2codeigniter.html",
-    "wiki": "http://o2system.center/standalone/o2codeigniter/user-guide/getting-started.html",
-    "github-wiki": "http://github.com/circlecreative/o2codeigniter/wiki"
+  "links"             : {
+    "info"        : "http://www.circle-creative.com/products/o2gears.html",
+    "wiki"        : "http://o2system.center/standalone/o2gears/user-guide/getting-started.html",
+    "github-wiki" : "http://github.com/circlecreative/o2gears/wiki"
   },
-  "require": {
-    "php": ">=5.4.0",
-    "o2system/o2gears" => "*"
+  "require"           : {
+    "php"              : ">=5.4.0"
   },
-  "autoload": {
-    "psr-4": {
-      "CodeIgniter\\": "src"
+  "autoload"          : {
+    "psr-4" : {
+      "CodeIgniter" : "src"
     },
-    "files": [
+    "files" : [
       "src/CodeIgniter.php"
     ]
   }
